@@ -10,6 +10,8 @@ $(function(){
 
 });
 
+$.ajaxSetup({crossDomain: true, xhrFields: {withCredentials: true}});
+
 var APP = {
 	baseurl :'http://fullstack.net.cn:3000'
 }

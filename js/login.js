@@ -15,7 +15,7 @@ $(function(){
 
 		$.ajax({
 			type:'post',
-			url:APP.baseurl +' /employee/employeeLogin',
+			url:`${APP.baseurl}/employee/employeeLogin`,
 			data:result,
 			success:function(response){
 				if(response.success){
